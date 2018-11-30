@@ -86,6 +86,10 @@
 	color: #fff;
 	font-family: sans-serif;
 }
+.slider p {
+	font-family: sans-serif;
+	color: #ffffff;
+}
 .button-start {
 	font-size: 25px;
 	position: absolute;
@@ -107,7 +111,7 @@
 	align-items: center;
 }
 .advanteg-block {
-	width: 300px;
+	width: 250px;
 	height: 350px;
 	padding: 20px;
 	display: flex;
@@ -116,6 +120,8 @@
 	align-items: center;
 	font-family: sans-serif;
 	text-align: center;
+	border-radius: 10px;
+	box-shadow: -1px -2px 34px -7px rgba(0,0,0,0.75);
 }
 .advanteg-block:hover {
 	background: linear-gradient(45deg, #FF0000 0%, #CD0000 14%, #000000 72%);
@@ -125,7 +131,8 @@
 .advanteg-block p {
 }
 .advanteg-block img {
-	width: 200px
+	width: 150px;
+	background-blend-mode: lighten;
 }
 .content {
 	height: 100%;
