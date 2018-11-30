@@ -2,6 +2,9 @@
 	padding: 0;
 	margin: 0;
 }
+.wrap {
+	background: linear-gradient(45deg, #000000 0%, #000000 30%, #FF0000 50%, #000000 70%, #000000 100%);
+}
 .header {
 	display: flex;
 	justify-content: space-around;
@@ -111,6 +114,7 @@
 	align-items: center;
 }
 .advanteg-block {
+	background: rgba(250,250,250,0.3);
 	width: 250px;
 	height: 350px;
 	padding: 20px;
@@ -136,8 +140,11 @@
 }
 .content {
 	height: 100%;
-	background: radial-gradient(ellipse at center, #ffffff 0%, #000000 100%);
 	z-index: -1
+}
+.content h2 {
+	font-size: 24px;
+	text-transform: uppercase;
 }
 /*стили для 3д карточек*/
 .section  {
@@ -178,6 +185,31 @@ img {
   transform: translateZ(10px);
 }
 /*стили для зд карточек*/
+.skills {
+	margin-top: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.skills-block {
+	background: #ffffff;
+	width: 60%;
+	display: flex;
+	margin: 20px;
+	box-shadow: -1px -2px 34px -7px rgba(0,0,0,0.75);
+}
+.skills-img {
+	padding: 15px;
+}
+.skills-img img {
+	width: 50px;
+}
+.skills-p {
+	padding: 15px;
+	display: flex;
+	align-items: center;
+}
 @media (max-width: 1000px) {
 	.header {
 		justify-content: space-between;
