@@ -14,7 +14,7 @@ $('.title').fadeTo(700,1);
 $('.cocacola').click(function(){
     $('.banka-pepsi,.banka-sprite,.banka-fanta').fadeTo(500,0);
     $('.banka-cola').fadeTo(500,1);
-    $('.napitki').css({
+    $('.main').css({
         'background':'url(img/bg.png) center center',
         'background-size':'cover'
     });
@@ -22,7 +22,7 @@ $('.cocacola').click(function(){
 $('.pepsi').click(function(){
     $('.banka-cola,.banka-sprite,.banka-fanta').fadeTo(500,0);
     $('.banka-pepsi').fadeTo(500,1);
-    $('.napitki').css({
+    $('.main').css({
         'background':'url(img/bg3.jpg) center center',
         'background-size':'cover'
     });
@@ -30,7 +30,7 @@ $('.pepsi').click(function(){
 $('.sprite').click(function(){
     $('.banka-cola,.banka-pepsi,.banka-fanta').fadeTo(500,0);
     $('.banka-sprite').fadeTo(500,1);
-    $('.napitki').css({
+    $('.main').css({
         'background':'url(img/bg2.jpg) center center',
         'background-size':'cover'
     });
@@ -38,7 +38,7 @@ $('.sprite').click(function(){
 $('.fanta').click(function(){
     $('.banka-cola,.banka-pepsi,.banka-sprite').fadeTo(500,0);
     $('.banka-fanta').fadeTo(500,1);
-    $('.napitki').css({
+    $('.main').css({
         'background':'url(img/bg4.jpg) center center',
         'background-size':'cover'
     });

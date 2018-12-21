@@ -173,7 +173,7 @@
   color: #fff;
   padding-top: 100px;
 }
-.container {
+.containercard {
   width: 680px;
 	height: 600px;
   margin: auto;
@@ -186,7 +186,7 @@
   transform: rotateX(55deg) rotateZ(-45deg) rotateY(10deg);
   transform-style: preserve-3d;
 }
-.container-origin {
+.containercard-origin {
   transform: rotate(0);
 }
 img {
@@ -229,6 +229,7 @@ img {
 /* banki start*/
 .main {
     background: black;
+    width: 100%;
 }
 .napitki {
     position: relative;
@@ -353,12 +354,17 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
     height: 500px;
-    background: #0c0c0c;;
+    background: linear-gradient(45deg, rgba(192,192,192,1) 0%, rgba(255,255,255,1) 50%, rgba(128,128,128,1) 100%);
+
 }
 .first {
     perspective: 900px;
     margin: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #cube {
     position: relative;
@@ -371,7 +377,7 @@ img {
 .side {
     width: 300px;
     height: 300px;
-    background: url(img/space.jpg);
+    background:radial-gradient(ellipse at center, rgba(128,0,128,1) 0%, rgba(0,0,0,1) 100%);
     position: absolute;
     /*border: 2px solid #860202;*/
     font-size: 5em;
