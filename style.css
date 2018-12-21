@@ -10,6 +10,9 @@
 	align-items: center;
 	padding: 5px;
 	background: #000;
+	position: fixed;
+	z-index: 5;
+	width: 100%;
 }
 #mobile-menu {
 	display: none;
@@ -46,18 +49,10 @@
 #menu a:hover{
 	color: red;
 }
-.line {
-	position: absolute;
-	top: 63px;
-	width: 100%;
-	height: 1px;
-	background: #fff;
-	opacity: 0.2;
-}
 .slider {
 	position: relative;
-	background: url('bg1.jpg') no-repeat center center;
-	height: 500px;
+	background-image: linear-gradient(to top, #000000, #1b1017, #261c2d, #262a48, #023c62);
+	height: 600px;
 	z-index: 1;
 }
 
@@ -71,16 +66,9 @@
 	text-align: center;
 	width: 100%;
 	height: 500px;
-	box-shadow: -1px -2px 98px 28px rgba(0,0,0,0.75);
-	transform: rotateX(90deg);
-	transition: 0.5s;
-}
-.wrap:hover .slider-wrap {
-	transform: rotateX(0deg);
 }
 .slider img {
 	width: 100px;
-	transition: 1s;
 }
 .slider h2 {
 	padding: 30px;
@@ -91,19 +79,7 @@
 	font-family: sans-serif;
 	color: #ffffff;
 }
-.button-start {
-	font-size: 25px;
-	position: absolute;
-	bottom: -25px;
-	padding: 5px 40px;
-	background: radial-gradient(ellipse at center, #ff0000 0%, #000000 100%);
-	color: #fff;
-	box-shadow: -1px -2px 98px 28px rgba(0,0,0,0.75);
-	border-radius: 5px;
-	text-transform: uppercase;
-	font-family: sans-serif;
-	font-weight: bold;
-}
+
 .advanteg {
 	position: relative;
 	height: 600px;
@@ -111,7 +87,7 @@
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	background: #131212;
+	background: #000;
 }
 .top {
 	width: 100%;
@@ -241,17 +217,6 @@ img {
     height: 500px;
     background-size: cover;
 }
-.shadow {
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background:rgba(0,0,0, 0.8);
-    height: 500px;
-    z-index: 1;
-}
 .basket {
     position: fixed;
     top: 0;
@@ -355,8 +320,7 @@ img {
     align-items: center;
     width: 100%;
     height: 500px;
-    background: linear-gradient(45deg, rgba(192,192,192,1) 0%, rgba(255,255,255,1) 50%, rgba(128,128,128,1) 100%);
-
+    background:linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
 }
 .first {
     perspective: 900px;
@@ -432,7 +396,7 @@ img {
 	.advanteg {
 		flex-wrap: wrap;
 	}
-	.container {
+	.containercard {
  		transform: rotate(0);
  		width: 100%;
 	}
