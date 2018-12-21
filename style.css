@@ -353,7 +353,8 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 500px;
+    background: #0c0c0c;;
 }
 .first {
     perspective: 900px;
@@ -370,12 +371,11 @@ img {
 .side {
     width: 300px;
     height: 300px;
-    background: rgba(0,0,0,0.3);
+    background: url(img/space.jpg);
     position: absolute;
-    border: 10px solid #fff;
-    border-radius: 10px;
+    /*border: 2px solid #860202;*/
     font-size: 5em;
-    color: #fff;
+    color: #000;
     line-height: 300px;
     text-align: center;
     text-shadow: 0 1px 3px rgba(0,0,0,.4);
