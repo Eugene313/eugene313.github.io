@@ -52,7 +52,7 @@
 .slider {
 	position: relative;
 	background-image: linear-gradient(to top, #000000, #170f15, #1f1a28, #1d283d, #00374f);
-	height: 600px;
+	height: 500px;
 	z-index: 1;
 }
 
@@ -81,7 +81,7 @@
 
 .advanteg {
 	position: relative;
-	height: 600px;
+	height: 400px;
 	padding: 0 15%;
 	display: flex;
 	justify-content: space-around;
@@ -141,6 +141,7 @@
 .section  {
 	perspective: 1000px;
   text-align: center;
+	background-image: linear-gradient(to bottom, #000000, #171218, #1a202c, #0d303d, #024141);
 }
 .section h2 {
   font-size: 22px;
@@ -178,11 +179,12 @@ img {
 }
 /*стили для зд карточек*/
 .skills {
-	margin-top: 50px;
+	padding-top: 50px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	background-image: linear-gradient(to top, #000000, #171218, #1a202c, #0d303d, #024141);
 }
 .skills-block {
 	width: 60%;
