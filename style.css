@@ -33,6 +33,7 @@
 }
 .menu ul {
 	display: flex;
+	margin-bottom: 0;
 }
 .menu li {
 	list-style: none;
@@ -108,7 +109,7 @@
 	width: 100%;
 }
 .advanteg-block {
-	width: 250px;
+	width: 300px;
 	height: 350px;
 	padding: 20px;
 	display: flex;
@@ -124,10 +125,12 @@
 	color: #fff;
 	border-radius: 10px;
 }
-.advanteg-block p {
-}
+
 .advanteg-block img {
 	width: 150px;
+}
+.advanteg-block p {
+	margin-bottom:0;
 }
 .content {
 	height: 100%;
@@ -135,7 +138,7 @@
 }
 .content h2 {
 	font-size: 24px;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 }
 /*стили для 3д карточек*/
 .section  {
