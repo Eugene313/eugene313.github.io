@@ -132,8 +132,57 @@
 .niz {
     width: 100%;
     height: 25%;
-    font-family: Badsignal,sans-serif;
+    display: flex;
+}
+.portfolio  {
+    width: 80%;
+    height: 100%;
+    position: relative;
+    background: grey;
+    overflow: hidden;
+}
+.portfolio-title {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Badsignal, sans-serif;
     color: #fff;
     font-size: 100px;
-    padding-left: 100px;
+    background: #161616;
+    z-index: 2;
+}
+.portfolio-title span {
+    font-size: 18px;
+    font-family: sans-serif;
+    padding: 10px;
+    background: grey;
+    cursor: pointer;
+}
+.portfolio-box {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    padding: 5%;
+}
+.slider {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+.slider-box {
+    background: #161616;
+    width: 20%;
+    height: 100%;
+    margin: 10px
+}
+.miniblock {
+    width: 20%;
+    height: 100%;
+    background: #eff5f512;
 }

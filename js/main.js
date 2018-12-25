@@ -10,3 +10,7 @@ var msgString = "Speed " + Number(elapsedTime/1000) + " second (" + elapsedTime 
 document.getElementById("vremia").innerHTML = msgString;
 }
 onload=function() {showElapsedTime();}
+
+$('.portfolio-title span').click(function () {
+    $('.portfolio-title').slideToggle(400)
+});
