@@ -60,7 +60,7 @@
     cursor: pointer;
 }
 .socseti-block:hover{
-    color: red;
+    color: #c62828;
 }
 .right {
     width: 90%;
@@ -72,8 +72,8 @@
     height: 75%;
 }
 .verh-content{
-    display: flex;
-    justify-content: space-between;
+    background: url("../img/bg.jpg");
+    background-size: cover;
     width: 80%;
     height: 100%;
 }
@@ -96,7 +96,7 @@
     padding-left: 5%;
 }
 .menu-link:hover{
-    color: red;
+    color: #c62828;
 }
 #vremia {
     display: flex;
@@ -107,6 +107,12 @@
     font-weight: bold;
     font-family: sans-serif;
     width: 30%;
+}
+.section {
+    font-family: Death,sans-serif;
+    color: #ffffff;
+    font-size: 100px;
+    padding-left: 100px;
 }
 .verh-logo{
     display: flex;
@@ -126,4 +132,8 @@
 .niz {
     width: 100%;
     height: 25%;
+    font-family: Badsignal,sans-serif;
+    color: #fff;
+    font-size: 100px;
+    padding-left: 100px;
 }
