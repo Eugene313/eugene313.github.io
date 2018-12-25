@@ -72,8 +72,8 @@
     height: 75%;
 }
 .verh-content{
-    background: url("../img/bg.jpg");
-    background-size: cover;
+    background: url("../img/bg.png") no-repeat right top;
+    background-size: 400px;
     width: 80%;
     height: 100%;
 }
