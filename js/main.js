@@ -17,10 +17,10 @@ onload=function() {showElapsedTime();}
 
 
 $('.portfolio-title span').click(function () {
-    $('.portfolio-title').animate({left:'100%'},600);
+    $('.portfolio-title').animate({left:'100%'},900);
 });
 $('.close').click(function () {
-    $('.portfolio-title').animate({left:'0'},600);
+    $('.portfolio-title').animate({left:'0'},900);
 });
 
 /*Slider start*/

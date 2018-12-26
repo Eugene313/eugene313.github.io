@@ -50,6 +50,8 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    background-image: linear-gradient(to bottom, #011323, #0b1320, #11141c, #151519, #161616);
+
 }
 .socseti-block {
     transform: rotateZ(-90deg);
@@ -110,6 +112,7 @@
     font-weight: bold;
     font-family: sans-serif;
     width: 60%;
+    margin-right: 5%;
 }
 .section {
     position: relative;
@@ -124,7 +127,7 @@
 }
 .marker {
     position: absolute;
-    right: 0;
+    right: 10%;
     top: 30%;
     width: 60px;
     display: flex;
@@ -225,13 +228,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: sans-serif;
+    font-family: Allstar;
     text-transform: uppercase;
-    font-weight: bold;
+    /*font-weight: bold;*/
     color: #fff;
     font-size: 60px;
-    background: #161616;;
+    background: #0b0c0ce8;
     z-index: 2;
+    box-shadow: -4px 2px 65px 5px rgba(0,0,0,0.75);
+
 }
 .portfolio-title span {
     color: #c62828;
@@ -241,7 +246,7 @@
     text-transform: uppercase;
     padding: 10px;
     cursor: pointer;
-    /*border: 1px solid #c62828;*/
+    border: 1px solid #c62828;
 }
 .portfolio-box {
     position: absolute;
