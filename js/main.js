@@ -11,6 +11,24 @@ document.getElementById("vremia").innerHTML = msgString;
 }
 onload=function() {showElapsedTime();}
 
+
 $('.portfolio-title span').click(function () {
-    $('.portfolio-title').slideToggle(400)
+    $('.portfolio-title').animate({left:'100%'},600);
 });
+
+var slider = [".html",".css",".js"];
+var i = 0;
+var sliderTimer = function(){
+    $(slider[i]).animate({left:'-100%'},500);
+    i = (i+1)%slider.length;
+    $(slider[i]).animate({top:'0'},500);
+    --i;
+    if (i < 0){i=2}
+    $(slider[i]).animate({top:'100%'},50);
+    $(slider[i]).animate({left:'30px'},50);
+    return i = (i+1)%slider.length;
+};
+setInterval(sliderTimer,5000);
+
+
+
