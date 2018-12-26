@@ -135,6 +135,7 @@
     border: 1px solid white;
     padding: 5px 10px;
     transition: 0.5s;
+    cursor: pointer;
 }
 .line-active {
     padding: 10px 15px;
@@ -264,17 +265,57 @@
     background: #313131;
     cursor: pointer;
 }
+.menu-html {
+    background: #9a0000;
+}
 .slider {
+    position: relative;
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: flex-start;
 }
-.slider-box {
-    background: #161616;
-    width: 20%;
+.slider-html {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    width: 100%;
     height: 100%;
-    margin: 10px
+    z-index: 2;
+    opacity: 1;
+}
+.slider-css {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    opacity: 0;
+}
+.slider-js {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    opacity: 0;
+}
+.container-block {
+    width: 150px;
+    height: 150px;
+    margin: 0 10px;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid white;
+    border-width: 50%;
+}
+.container-block img {
+    width: 80px;
 }
 .miniblock {
     width: 20%;

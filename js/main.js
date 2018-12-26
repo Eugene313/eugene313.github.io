@@ -44,6 +44,35 @@ setInterval(sliderTimer,7000);
 
 /* Slider end */
 
+$('.menu-html').click(function () {
+    $('.menu-html').css('background','#9a0000');
+    $('.slider-html').css('opacity','1');
+    $('.slider-css').css('opacity','0');
+    $('.slider-js').css('opacity','0');
+
+    $('.menu-css').css('background','#313131');
+    $('.menu-js').css('background','#313131');
+});
+$('.menu-css').click(function () {
+    $('.menu-css').css('background','#9a0000');
+    $('.slider-css').css('opacity','1');
+    $('.slider-html').css('opacity','0');
+    $('.slider-js').css('opacity','0');
+    $('.menu-html').css('background','#313131');
+    $('.menu-js').css('background','#313131');
+});
+$('.menu-js').click(function () {
+    $('.menu-js').css('background','#9a0000');
+    $('.slider-js').css('opacity','1');
+    $('.slider-html').css('opacity','0');
+    $('.slider-css').css('opacity','0');
+    $('.menu-html').css('background','#313131');
+    $('.menu-css').css('background','#313131');
+});
+
+
+
+
 
 
 
