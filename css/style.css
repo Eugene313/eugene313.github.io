@@ -72,8 +72,8 @@
     height: 75%;
 }
 .verh-content{
-    background: url("../img/bg.png") no-repeat right top;
-    background-size: 30%;
+    background: url("../img/superthumb3.png") no-repeat center;
+    background-size: 20px;
     width: 80%;
     height: 100%;
 }
@@ -83,6 +83,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background: url("../img/superthumb2.png") no-repeat left top;
+    background-size: 50px;
 }
 .menu-wrap {
     display: flex;
@@ -117,6 +119,8 @@
     font-family: sans-serif;
     padding: 20px;
     overflow: hidden;
+    background: url("../img/superthumb.png") no-repeat right bottom;
+    background-size: 50px;
 }
 .marker {
     position: absolute;
@@ -146,8 +150,8 @@
     position: absolute;
     top: 0;
     left: 30px;
-    width: 50%;
-    height: 100%;
+    width: 40%;
+    height: 80%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -160,8 +164,8 @@
     position: absolute;
     top: 100%;
     left: 30px;
-    width: 50%;
-    height: 100%;
+    width: 40%;
+    height: 80%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -171,8 +175,8 @@
     position: absolute;
     top: 100%;
     left: 30px;
-    width: 50%;
-    height: 100%;
+    width: 40%;
+    height: 80%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -312,7 +316,8 @@
     text-align: center;
     padding: 5px;
     border: 1px solid white;
-    border-width: 50%;
+    color: #ffffff;
+    font-family: sans-serif;
 }
 .container-block img {
     width: 80px;
