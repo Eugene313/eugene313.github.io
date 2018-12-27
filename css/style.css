@@ -3,6 +3,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
 .main {
 
 }
@@ -50,7 +54,6 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    background-image: linear-gradient(to bottom, #011323, #0b1320, #11141c, #151519, #161616);
 
 }
 .socseti-block {
@@ -151,7 +154,7 @@
 
 .html {
     position: absolute;
-    top: 0;
+    top: 60px;
     left: 30px;
     width: 40%;
     height: 80%;
@@ -159,13 +162,14 @@
     flex-direction: column;
     justify-content: space-around;
     padding: 20px;
+    box-shadow: 0px 2px 109px -9px rgba(0,0,0,1);
 }
 .html img,.css img,.js img {
     width: 150px;
 }
 .css {
     position: absolute;
-    top: 100%;
+    top: 120%;
     left: 30px;
     width: 40%;
     height: 80%;
@@ -173,10 +177,11 @@
     flex-direction: column;
     justify-content: space-around;
     padding: 20px;
+    box-shadow: 0px 2px 109px -9px rgba(0,0,0,1);
 }
 .js {
     position: absolute;
-    top: 100%;
+    top: 120%;
     left: 30px;
     width: 40%;
     height: 80%;
@@ -184,6 +189,7 @@
     flex-direction: column;
     justify-content: space-around;
     padding: 20px;
+    box-shadow: 0px 2px 109px -9px rgba(0,0,0,1);
 }
 .verh-logo{
     display: flex;
@@ -223,30 +229,35 @@
 }
 .portfolio-title {
     position: absolute;
+    left: 20%;
     width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    font-size: 60px;
+    background: #000;
+    z-index: 2;
+    box-shadow: -4px 2px 65px 5px rgba(0,0,0,0.75);
+}
+.open {
+    width: 5%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: Allstar;
-    text-transform: uppercase;
-    /*font-weight: bold;*/
-    color: #fff;
-    font-size: 60px;
-    background: #0b0c0ce8;
-    z-index: 2;
-    box-shadow: -4px 2px 65px 5px rgba(0,0,0,0.75);
-
-}
-.portfolio-title span {
-    color: #c62828;
-    font-size: 12px;
+    background: #292929d4;
     font-family: sans-serif;
-    font-weight: bold;
-    text-transform: uppercase;
-    padding: 10px;
     cursor: pointer;
-    border: 1px solid #c62828;
+    margin-right: 50px;
+    transition: 0.5s;
+}
+.open:hover{
+    background: #9a0000;;
 }
 .portfolio-box {
     position: absolute;
@@ -315,6 +326,10 @@
     opacity: 0;
 }
 .container-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 150px;
     height: 150px;
     margin: 0 10px;
