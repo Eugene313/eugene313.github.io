@@ -20,7 +20,7 @@ $('.open').click(function () {
     $('.portfolio-title').animate({left:'100%'},900);
 });
 $('.close').click(function () {
-    $('.portfolio-title').animate({left:'20%'},900);
+    $('.portfolio-title').animate({left:'0'},900);
 });
 
 /*Slider start*/
