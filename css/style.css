@@ -235,15 +235,26 @@ a {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    font-family: sans-serif;
+    font-family: Blackstreamer, sans-serif;
     text-transform: uppercase;
     font-weight: bold;
     color: #fff;
-    font-size: 60px;
+    font-size: 70px;
     background: url("../img/bg.jpg") no-repeat top left;
     background-size: cover;
     z-index: 2;
     box-shadow: -4px 2px 65px 5px rgba(0,0,0,0.75);
+}
+.portfolio-title p {
+    font-family: Staatliches,sans-serif;
+    box-shadow: 10px 10px 158px -5px rgba(255,0,0,1);
+    border-radius: 70px;
+    line-height: 0.6;
+    background: #a909094f;
+    /*padding: 0 10px;*/
+}
+.portfolio-title p:first-letter {
+    color: #ffffff7a;
 }
 .open {
     width: 50px;

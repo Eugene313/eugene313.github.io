@@ -14,3 +14,20 @@
     font-family: Death;
     src: url(../fonts/death.ttf);
 }
+@font-face {
+    font-family: Blacktop;
+    src: url(../fonts/black.otf);
+}
+@font-face {
+    font-family: Blackstreamer;
+    src: url(../fonts/Blackstreamer.ttf);
+}
+@font-face {
+    font-family: Rcblack;
+    src: url(../fonts/rcblack.otf);
+}
+@font-face {
+    font-family: Staatliches;
+    src: url(../fonts/Staatliches-Regular.ttf);
+}
+
