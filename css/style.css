@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+body {
+    min-width: 1200px;
+}
 a {
     color: #ffffff;
     text-decoration: none;
