@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700')
+*
+    margin: 0
+    padding: 0
+    box-sizing:border-box
+body
+    background:white
+p
+    margin: 0
+a 
+    text-decoration: none
+    color:white
+    &:hover
+        text-decoration: none
+    &:hover
+        color:green
+.wrap
+    width:100%
+    #header
+        position:relative
+        display:flex
+        flex-direction:column
+        justify-content:center 
+        align-items:center
+        overflow hidden
+        transition:0.3s
+        height: 100vh
+        img
+            position absolute
+            top: -200px
+            width: 100%
+        nav
+            position:fixed
+            top:0
+            width:100%
+            height 80px
+            transition:0.5s
+            z-index 3
+            .blur
+                position: absolute
+                width:100%
+                height:100%
+                background:#00000020
+                filter: blur(3px)
+                transition:1s
+            .nav-wrap
+                position relative
+                height:100%
+                display:flex
+                justify-content:space-between
+                align-items:center
+                transition:1s
+                z-index:2
+                margin: 0 auto
+                .nav-menu
+                    display:flex
+                    justify-content:center
+                    align-items:center
+                    transition:1s
+                    .nav-link
+                        margin-left:15px
+                        text-transform:uppercase
+                        font-family: 'Roboto', sans-serif;
+                        font-size:18px
+                        font-weight:300
+                        transition:1s
+                        &:first-child
+                            border:1px solid white
+                            padding: 5px 10px
+                            font-size: 30px
+                            &:hover
+                                background:#ffffff70;
+                                cursor pointer
+                                color:white
+                            a:hover
+                                color: white;
+                .contact
+                    display:flex
+                    justify-content:center
+                    align-items:center
+                    font-weight:300
+                    p
+                        color:white
+                        text-transform:uppercase
+                        font-size:20px
+                        font-family: 'Roboto', sans-serif;
+                        margin-left:15px
+        .wrap-title
+            background: #00000050
+            padding: 70px 50px
+            display: flex
+            flex-direction: column
+            justify-content: center
+            align-items: center
+            h1 
+                position relative
+                font-size:62px
+                font-family: 'Roboto', sans-serif;
+                font-weight:500
+                color:white
+                margin-bottom:40px
+                opacity:0
+                transition:0.5s
+                z-index 2
+            h4 
+                position relative
+                font-size:24px
+                font-family: 'Roboto', sans-serif;
+                font-weight:300
+                color:white
+                opacity:0
+                transition:2s
+                z-index 2
+    #question
+        width:100%
+        height:100vh
+        background:#fff
+        text-align: center
+        h2
+            padding-top:100px
+            padding-bottom: 50px
+            font-family: 'Roboto',sans-serif
+            font-weight: 300
+            font-size: 2rem
+            overflow: hidden;
+        .question
+            display: flex;
+            justify-content: space-between
+            .question-img
+                img
+                    width: 700px
+                    box-shadow: 0px 0px 15px 6px rgba(0,0,0,0.4)
+            .question-title
+                width: 350px
+                text-align: left
+                padding-left: 50px
+                h4
+                    font-family: 'Roboto',sans-serif
+                    font-size: 1.5rem
+                    font-weight: 400
+                    padding-bottom: 30px
+                    position relative
+                    left:-22px
+                    &:before
+                        content: '\27A6'
+                        position:relative
+                        left:-10px
+                        color:grey
+                p
+                    font-family: 'Times New Roman'
+                    font-size: 1.3rem
+                    font-weight: 300
+                    padding-bottom: 30px 
+                    color: #736f6f
+                    line-height: 1.8rem
+    #dreem
+        width: 100%
+        height: 700px
+        display: flex
+        flex-direction: column
+        align-items: center
+        justify-content: center
+        h2
+            width: 80%
+            color: white;
+            font-size: 4rem
+            text-align: center
+            font-family: 'Roboto',sans-serif
+            font-weight: 300
+        p
+            color: white
+            font-size: 1.5rem
+            text-align: center
+            font-family: 'Roboto',sans-serif
+            font-weight: 300
+            padding-top: 30px
+    #types
+        width: 100%
+        height 100vh

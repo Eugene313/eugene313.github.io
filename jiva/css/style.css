@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #fff;
+}
+p {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+a:hover {
+  text-decoration: none;
+}
+a:hover {
+  color: #008000;
+}
+.wrap {
+  width: 100%;
+}
+.wrap #header {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: 0.3s;
+  height: 100vh;
+}
+.wrap #header img {
+  position: absolute;
+  top: -200px;
+  width: 100%;
+}
+.wrap #header nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 80px;
+  transition: 0.5s;
+  z-index: 3;
+}
+.wrap #header nav .blur {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.125);
+  filter: blur(3px);
+  transition: 1s;
+}
+.wrap #header nav .nav-wrap {
+  position: relative;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 1s;
+  z-index: 2;
+  margin: 0 auto;
+}
+.wrap #header nav .nav-wrap .nav-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 1s;
+}
+.wrap #header nav .nav-wrap .nav-menu .nav-link {
+  margin-left: 15px;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  transition: 1s;
+}
+.wrap #header nav .nav-wrap .nav-menu .nav-link:first-child {
+  border: 1px solid #fff;
+  padding: 5px 10px;
+  font-size: 30px;
+}
+.wrap #header nav .nav-wrap .nav-menu .nav-link:first-child:hover {
+  background: rgba(255,255,255,0.439);
+  cursor: pointer;
+  color: #fff;
+}
+.wrap #header nav .nav-wrap .nav-menu .nav-link:first-child a:hover {
+  color: #fff;
+}
+.wrap #header nav .nav-wrap .contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 300;
+}
+.wrap #header nav .nav-wrap .contact p {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  margin-left: 15px;
+}
+.wrap #header .wrap-title {
+  background: rgba(0,0,0,0.314);
+  padding: 70px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.wrap #header .wrap-title h1 {
+  position: relative;
+  font-size: 62px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 40px;
+  opacity: 0;
+  transition: 0.5s;
+  z-index: 2;
+}
+.wrap #header .wrap-title h4 {
+  position: relative;
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: #fff;
+  opacity: 0;
+  transition: 2s;
+  z-index: 2;
+}
+.wrap #question {
+  width: 100%;
+  height: 100vh;
+  background: #fff;
+  text-align: center;
+}
+.wrap #question h2 {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 2rem;
+  overflow: hidden;
+}
+.wrap #question .question {
+  display: flex;
+  justify-content: space-between;
+}
+.wrap #question .question .question-img img {
+  width: 700px;
+  box-shadow: 0px 0px 15px 6px rgba(0,0,0,0.4);
+}
+.wrap #question .question .question-title {
+  width: 350px;
+  text-align: left;
+  padding-left: 50px;
+}
+.wrap #question .question .question-title h4 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding-bottom: 30px;
+  position: relative;
+  left: -22px;
+}
+.wrap #question .question .question-title h4:before {
+  content: '\27A6';
+  position: relative;
+  left: -10px;
+  color: #808080;
+}
+.wrap #question .question .question-title p {
+  font-family: 'Times New Roman';
+  font-size: 1.3rem;
+  font-weight: 300;
+  padding-bottom: 30px;
+  color: #736f6f;
+  line-height: 1.8rem;
+}
+.wrap #dreem {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.wrap #dreem h2 {
+  width: 80%;
+  color: #fff;
+  font-size: 4rem;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+.wrap #dreem p {
+  color: #fff;
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  padding-top: 30px;
+}
+.wrap #types {
+  width: 100%;
+  height: 100vh;
+}
