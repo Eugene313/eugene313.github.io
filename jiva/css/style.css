@@ -136,7 +136,7 @@ a:hover {
 }
 .wrap #question {
   width: 100%;
-  height: 100vh;
+  height: 800px;
   background: #fff;
   text-align: center;
 }
@@ -154,7 +154,7 @@ a:hover {
 }
 .wrap #question .question .question-img img {
   width: 700px;
-  box-shadow: 0px 0px 15px 6px rgba(0,0,0,0.4);
+  box-shadow: 0 0 15px 6px rgba(0,0,0,0.4);
 }
 .wrap #question .question .question-title {
   width: 350px;
@@ -198,6 +198,7 @@ a:hover {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
+  text-shadow: #e0e0e0 1px 1px 0, 0px 4px 14px rgba(0,0,0,0.73);
 }
 .wrap #dreem p {
   color: #fff;
@@ -206,10 +207,11 @@ a:hover {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   padding-top: 30px;
+  text-shadow: #e0e0e0 1px 1px 0, 0px 4px 14px rgba(0,0,0,0.73);
 }
 .wrap #types {
   width: 100%;
-  height: 100vh;
+  height: 100px;
 }
 .wrap #secret {
   width: 100%;
@@ -227,14 +229,50 @@ a:hover {
   font-size: 4rem;
   color: #fff;
   padding-bottom: 30px;
+  text-shadow: #e0e0e0 1px 1px 0, 0px 4px 14px rgba(0,0,0,0.73);
 }
 .wrap #secret .secret-wrap p {
   color: #fff;
   font-size: 1.8rem;
+  text-shadow: #e0e0e0 1px 1px 0, 0px 4px 14px rgba(0,0,0,0.73);
+}
+.wrap #specialists {
+  width: 100%;
+  text-align: center;
+}
+.wrap #specialists .wrap-specialists h2 {
+  font-size: 2rem;
+  padding-top: 70px;
+}
+.wrap #specialists .wrap-specialists p {
+  padding: 30px 0;
+  color: #808080;
+  font-size: 1.5rem;
+}
+.wrap #specialists .wrap-specialists .specialists-container {
+  width: 100%;
+}
+.wrap #specialists .wrap-specialists .specialists-container .specialists-block {
+  margin: 0 auto;
+}
+.wrap #specialists .wrap-specialists .specialists-container .specialists-block .specialists-img {
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 5px 11px 28px -2px rgba(0,0,0,0.75);
+}
+.wrap #specialists .wrap-specialists .specialists-container .specialists-block .specialists-img img {
+  width: 200px;
+}
+.wrap #specialists .wrap-specialists .specialists-container p {
+  color: #535353;
+  font-size: 1.7rem;
 }
 .wrap #price {
   width: 100%;
-  height: 100vh;
+  height: 1000px;
   background: linear-gradient(45deg, rgba(234,21,129,0.6), rgba(10,23,187,0.6) 100%);
 }
 .wrap #price .price-wrap {
@@ -256,7 +294,7 @@ a:hover {
   background: #fff;
   padding: 50px 80px;
   border-radius: 5px;
-  box-shadow: 0px 0px 77px -23px rgba(0,0,0,0.75);
+  box-shadow: 0 0 77px -23px rgba(0,0,0,0.75);
 }
 .wrap #price .price-wrap .price-container .women p {
   font-size: 1.3rem;
@@ -268,6 +306,26 @@ a:hover {
   color: #f00;
 }
 .wrap #price .price-wrap .price-container .women .bolder {
+  color: #000;
+  font-weight: 500;
+}
+.wrap #price .price-wrap .price-container .man {
+  height: 100%;
+  background: #fff;
+  padding: 50px 80px;
+  border-radius: 5px;
+  box-shadow: 0 0 77px -23px rgba(0,0,0,0.75);
+}
+.wrap #price .price-wrap .price-container .man p {
+  font-size: 1.3rem;
+  color: #808080;
+}
+.wrap #price .price-wrap .price-container .man h3 {
+  font-size: 3rem;
+  font-weight: 300;
+  color: #f00;
+}
+.wrap #price .price-wrap .price-container .man .bolder {
   color: #000;
   font-weight: 500;
 }
@@ -307,7 +365,7 @@ a:hover {
   padding: 70px 10px 20px 10px;
   width: 100%;
   height: 500px;
-  box-shadow: 0px 0px 19px -2px rgba(0,0,0,0.75);
+  box-shadow: 0 0 19px -2px rgba(0,0,0,0.75);
   position: relative;
   border-radius: 5px;
 }
@@ -322,7 +380,7 @@ a:hover {
   top: -30px;
   left: 30px;
   border-radius: 5px;
-  box-shadow: 0px 10px 19px -2px rgba(0,0,0,0.75);
+  box-shadow: 0 10px 19px -2px rgba(0,0,0,0.75);
 }
 .wrap #contact .map-wrap .map-block .map-block-head p {
   color: #fff;
