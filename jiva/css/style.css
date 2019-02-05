@@ -211,7 +211,14 @@ a:hover {
 }
 .wrap #types {
   width: 100%;
-  height: 100px;
+  height: 300px;
+  text-align: center;
+}
+.wrap #types h2 {
+  padding-top: 70px;
+}
+.wrap #types p {
+  padding: 30px 0;
 }
 .wrap #secret {
   width: 100%;
@@ -412,6 +419,10 @@ a:hover {
 }
 .wrap footer .footer-menu .footer-title {
   padding: 15px;
+}
+.wrap footer .footer-menu .footer-title .social a i {
+  font-size: 22px;
+  padding: 40px 10px;
 }
 .wrap footer .footer-copyright {
   width: 100%;

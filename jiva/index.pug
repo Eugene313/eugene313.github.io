@@ -7,13 +7,14 @@ html(lang="en")
 		title Массажный салон - Jiva
 		link(rel="icon" href="img/favicon.ico")
 		link(rel="stylesheet", href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css")
+		link(rel="stylesheet", href="font-awesome/css/font-awesome.min.css")
 		link(rel="stylesheet", href="css/style.css")
 	body
 		.wrap
 			include header.pug
 			include question.pug
 			include dream.pug
-			section#types
+			include types.pug
 			include secret.pug
 			include specialists.pug
 			include price.pug
