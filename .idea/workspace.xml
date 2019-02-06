@@ -1,7 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dc80fe9f-ca0e-40e3-aea0-2bb411063862" name="Default Changelist" comment="" />
+    <list default="true" id="dc80fe9f-ca0e-40e3-aea0-2bb411063862" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/fonts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Blackstreamer.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Staatliches-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/allstar.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/badsignal.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/black.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/death.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/rcblack.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/ultrafresh.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/bg2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/codepen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/css.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/fb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/html.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/js.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/superthumb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/superthumb2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/superthumb3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jiva/contact.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jiva/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jiva/css/style.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jiva/dream.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jiva/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jiva/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jiva/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jiva/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jiva/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jiva/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jiva/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jiva/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jiva/footer.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jiva/header.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jiva/img/bg2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jiva/img/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jiva/img/header.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jiva/img/lespa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jiva/img/photo1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jiva/img/photo2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jiva/img/photo3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jiva/img/photo4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jiva/img/photo5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jiva/img/photo6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jiva/img/photo7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jiva/img/photo8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jiva/img/photo9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jiva/img/slice3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jiva/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jiva/index.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jiva/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jiva/js/jquery-3.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jiva/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jiva/js/parallax.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jiva/js/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jiva/price.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jiva/question.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jiva/secret.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jiva/specialists.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jiva/textolite/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jiva/textolite/conf.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jiva/textolite/lang.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jiva/textolite/textolite.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jiva/textolite/textolite.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jiva/textolite/textolite.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jiva/types.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/jquery-3.3.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/er.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/er.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,31 +83,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-259">
-              <caret line="14" column="67" lean-forward="true" selection-start-line="14" selection-start-column="67" selection-end-line="14" selection-end-column="67" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/vue.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+            <state relative-caret-position="-2535">
+              <caret line="15" column="70" selection-start-line="15" selection-start-column="70" selection-end-line="15" selection-end-column="70" />
             </state>
           </provider>
         </entry>
@@ -56,9 +109,9 @@
         <option value="$PROJECT_DIR$/jiva/index.pug" />
         <option value="$PROJECT_DIR$/jiva/header.pug" />
         <option value="$PROJECT_DIR$/jiva/textolite/.htaccess" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -169,10 +222,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4675000" />
+    <option name="totallyTimeSpent" value="5021000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17477097" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -185,9 +239,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49964765" visible="true" weight="0.21927711" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5003524" side_tool="true" visible="true" weight="0.21927711" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49964765" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49964765" weight="0.21927711" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5003524" side_tool="true" visible="true" weight="0.32891566" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -241,10 +295,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-259">
-          <caret line="14" column="67" lean-forward="true" selection-start-line="14" selection-start-column="67" selection-end-line="14" selection-end-column="67" />
+        <state relative-caret-position="356">
+          <caret line="31" column="69" lean-forward="true" selection-start-line="31" selection-start-column="69" selection-end-line="31" selection-end-column="69" />
         </state>
       </provider>
     </entry>
@@ -257,10 +311,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        <state relative-caret-position="-2535">
+          <caret line="15" column="70" selection-start-line="15" selection-start-column="70" selection-end-line="15" selection-end-column="70" />
         </state>
       </provider>
     </entry>
