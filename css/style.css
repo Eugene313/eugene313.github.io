@@ -4,12 +4,14 @@
     box-sizing: border-box;
 }
 .main {
-
+    overflow: hidden;
+    background: url('../img/bg14.jpg') no-repeat;
+    background-size:100% 100%;
+    background-position: bottom;
 }
 .header {
     width: 100%;
     height: 100vh;
-    background: #161616;
     display: flex;
 }
 .left {
@@ -60,7 +62,8 @@
     cursor: pointer;
 }
 .socseti-block:hover{
-    color: red;
+    color: #00efff;
+    cursor: pointer;
 }
 .right {
     width: 90%;
@@ -96,7 +99,8 @@
     padding-left: 5%;
 }
 .menu-link:hover{
-    color: red;
+    color: #00efff;
+    cursor: pointer;
 }
 #vremia {
     display: flex;
@@ -123,7 +127,35 @@
     font-size: 8rem;
     padding-bottom: 40%;
 }
+.logo p {
+    position: fixed;
+    right:-100px;
+    bottom:0;
+
+}
 .niz {
     width: 100%;
     height: 25%;
+}
+
+#app .button {
+    padding: 10px;
+    background: none;
+    border-color: #00ced199;
+    color: #ffffff;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+#app .button:hover{
+    background: #00ced199;
+    cursor: pointer;
+}
+#app .button:active,#app .button:focus {
+    outline: none !important;
+}
+.slide-enter-active, .slide-leave-active {
+    transition: all 2.3s cubic-bezier(.65, .05, .36, 1);
+}
+.slide-enter, .slide-leave-active {
+    bottom: -500px;
 }
