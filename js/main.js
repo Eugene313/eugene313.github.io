@@ -74,5 +74,5 @@ if (xhr.status != 200) {
 } else {
     // вывести результат
     // alert( xhr.responseText ); // responseText -- текст ответа.
-    console_log(xhr.responseText);
+    console.log(xhr.responseText);
 }
