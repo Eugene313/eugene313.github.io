@@ -62,3 +62,6 @@ $('#sleep').click(function () {
     })
 })
 $('#wakeup').click(wakeUp)
+$('#reload').click(function () {
+    location.reload();
+})

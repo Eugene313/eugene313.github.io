@@ -9,6 +9,12 @@ body {
     background-position:  center 1900px;
     transition: 4s all;
 }
+i {
+    margin-right: 5px;
+}
+#reload {
+
+}
 #app {
     background: url("../img/sun.png") no-repeat;
     background-position: 90% 80%;
@@ -185,11 +191,15 @@ body {
     width: 70%;
 }
 .menu-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: sans-serif;
     font-size: 18px;
     font-weight: bold;
     color: white;
-    padding-left: 20px
+    padding-left: 20px;
+    z-index: 3;
 }
 .menu-link:hover{
     color: #00efff;
@@ -199,10 +209,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100px;
+    width: 120px;
     height: 40px;
     background: #ffffff50;
-    margin-left: 50px;
+    margin-left: 30px;
     padding: 0;
     cursor: pointer;
     z-index: 3;
@@ -215,7 +225,7 @@ body {
     font-size: 18px;
     font-weight: bold;
     font-family: sans-serif;
-    width: 30%;
+    width: 250px;
     z-index: 3;
 }
 .verh-logo{
@@ -230,11 +240,16 @@ body {
     color: white;
     font-family: sans-serif;
     font-weight: bold;
-    font-size: 8rem;
+    font-size: 7rem;
     padding-bottom: 40%;
     position: relative;
     top: 10px;
     z-index: 3;
+}
+.logo p i {
+    position: absolute;
+    top:10px;
+    left:-130px
 }
 .niz {
     width: 100%;

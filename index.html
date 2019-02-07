@@ -33,21 +33,21 @@
                     <div class="verh-content">
                         <div class="menu">
                             <div class="menu-wrap">
-                                <div class="menu-link">Home</div>
-                                <div class="menu-link">About</div>
-                                <div class="menu-link">Contact</div>
-                                <div class="menu-link">GitHub</div>
-                                <div id="sleep"class="menu-link">Sleep</div>
-                                <div id="wakeup"class="menu-link">Wake Up</div>
+                                <div class="menu-link"><i class="fas fa-home"></i>Home</div>
+                                <div class="menu-link"><i class="far fa-address-card"></i>Summary</div>
+                                <div class="menu-link"><i class="fas fa-phone"></i>Contact</div>
+                                <div class="menu-link"><i class="fab fa-github"></i>GitHub</div>
+                                <div id="sleep"class="menu-link"><i class="fas fa-angle-right"></i>Sleep</div>
+                                <div id="wakeup"class="menu-link"><i class="fas fa-angle-right"></i>Wake Up</div>
                             </div> 
-                            <div id="vremia">Загрузка ...</div>
+                            <div class="menu-link"><i id="reload"class="fas fa-sync-alt"></i><div id="vremia">Загрузка ...</div></div>
                             <button type="submit" class="button" v-on:click="showLogo"> {{ message2 }} </button>
                         </div>
                     </div>
                     <div class="verh-logo" >
                             <div class="logo" >
                                     <transition name="slide">
-                                        <p v-show="seen">Developer</p>
+                                        <p v-show="seen"><i class="fab fa-connectdevelop"></i>Developer</p>
                                     </transition>
                             </div>
                     </div>
