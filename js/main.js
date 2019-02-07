@@ -43,4 +43,9 @@ var app = new Vue({
             }
         }
     }
-})
+});
+setTimeout(function () {
+    $('body').css({
+        'background-position':' center 500px'
+    })
+},1000)
