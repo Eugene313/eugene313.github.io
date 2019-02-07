@@ -20,7 +20,7 @@ var app = new Vue({
         contact:"Contacts",
         night:"Night",
         dayOn:"Day",
-
+        objAjax:objAjax
     },
     methods: {
         transLate: function () {
