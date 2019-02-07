@@ -4,25 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
 <body>
+<div id="app">
     <div class="main">
         <div class="header">
+            <div id="cloud"><img src="img/cloud.png" alt=""></div>
+            <div id="cloud2"><img src="img/cloud.png" alt=""></div>
+            <div id="cloud3"><img src="img/cloud3.png" alt=""></div>
+            <div id="bird"><img src="img/bird2.gif" alt=""></div>
             <div class="left">
-                <div class="box">
+                <div class="box" v-on:click="transLate">
                     <div class="boxmod">
-                        <div class="krug"></div>
-                        <div class="krug"></div>
-                        <div class="krug"></div>
-                        <div class="krug"></div>
-                        <div class="krug"></div>
-                        <div class="krug"></div>
-                        <div class="krug"></div>
-                        <div class="krug"></div>
-                        <div class="krug"></div>
+                        <i class="fab fa-buromobelexperte"></i>
                     </div>
                 </div>
                 <div class="socseti">
@@ -36,107 +33,30 @@
                     <div class="verh-content">
                         <div class="menu">
                             <div class="menu-wrap">
-                                <div class="menu-link">Home</div>
-                                <div class="menu-link">About</div>
-                                <div class="menu-link">Contact</div>
-                                <div class="menu-link">GitHub</div>
+                                <div class="menu-link"><i class="fas fa-home"></i><a>{{ home }}</a></div>
+                                <div class="menu-link"><i class="far fa-address-card"></i>{{ summary }}</div>
+                                <div class="menu-link"><i class="fas fa-phone"></i>{{ contact}}</div>
+                                <div class="menu-link"><i class="fab fa-github"></i>GitHub</div>
+                                <div id="sleep"class="menu-link"><i class="fas fa-angle-right"></i>{{ night }}</div>
+                                <div id="wakeup"class="menu-link"><i class="fas fa-angle-right"></i>{{ dayOn}}</div>
                             </div> 
-                            <div id="vremia">
-                                Загрузка ...
-                            </div>
-                        </div>
-                        <div class="section">
-                            <div class="marker">
-                                <div class="line line-active">1</div>
-                                <div class="line">2</div>
-                                <div class="line">3</div>
-                            </div>
-                            <div class="html">
-                                <img src="img/html.png" alt="">
-                                <h1>Lorem ipsus in  HTML</h1>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto beatae corporis debitis ducimus ea eligendi fugiat illo, illum in incidunt ipsum minima molestiae sapiente tenetur?</p>
-                            </div>
-                            <div class="css">
-                                <img src="img/css.png" alt="">
-                                <h1>Lorem ipsum in CSS</h1>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto beatae corporis debitis ducimus ea eligendi fugiat illo, illum in incidunt ipsum minima molestiae sapiente tenetur?</p>
-                            </div>
-                            <div class="js">
-                                <img src="img/js.png" alt="">
-                                <h1>Lorem ipsus in JS</h1>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto beatae corporis debitis ducimus ea eligendi fugiat illo, illum in incidunt ipsum minima molestiae sapiente tenetur?</p>
-                            </div>
+                            <div class="menu-link"><i id="reload"class="fas fa-sync-alt"></i><div id="vremia">Загрузка ...</div></div>
                         </div>
                     </div>
-                    <div class="verh-logo">
-                        <div class="logo"><p>Developer</p></div>
+                    <div class="verh-logo" >
+                            <div class="logo" >
+                                        <p><i class="fab fa-connectdevelop"></i>Developer</p>
+                            </div>
                     </div>
                 </div>
                 <div class="niz">
-                    <div class="portfolio">
-                        <div class="close">✖</div>
-                        <div class="portfolio-title">
-                            <div class="open"> ›</div>
-                            <p>Portfolio</p>
-                        </div>
-                        <div class="portfolio-box">
-                            <div class="box-menu">
-                                <div class="menu-html">Projects</div>
-                                <div class="menu-css">CSS</div>
-                                <div class="menu-js">JS</div>
-                            </div>
-                            <div class="slider">
-                                <div class="slider-html">
-                                    <div class="container-block">
-                                        <img src="img/html.png" alt="">
-                                    </div>
-                                    <div class="container-block"></div>
-                                    <div class="container-block"></div>
-                                </div>
-                                <div class="slider-css">
-                                    <div class="container-block">
-                                        <img src="img/css.png" alt="">
-                                    </div>
-                                    <div class="container-block">
-                                        <img src="img/codepen.png" alt="">
-                                        <p><a href="https://codepen.io/eugene313/pen/rozwLp">Chat Banner</a></p>
-                                    </div>
-                                    <div class="container-block">
-                                        <img src="img/codepen.png" alt="">
-                                        <p><a href="https://codepen.io/eugene313/pen/NevXRy">First-letter</a></p>
-                                    </div>
-                                    <div class="container-block">
-                                        <img src="img/codepen.png" alt="">
-                                        <p><a href="https://codepen.io/eugene313/pen/XoaVJO">Button</a></p>
-                                    </div>
-                                    <div class="container-block">
-                                        <img src="img/codepen.png" alt="">
-                                        <p><a href="https://codepen.io/eugene313/pen/xmLjXb">3D Cube</a></p>
-                                    </div>
-                                </div>
-                                <div class="slider-js">
-                                    <div class="container-block">
-                                        <img src="img/js.png" alt="">
-                                        <p>JS</p>
-                                    </div>
-                                    <div class="container-block">
-                                        <img src="img/codepen.png" alt="">
-                                    </div>
-                                    <div class="container-block"></div>
-                                    <div class="container-block"></div>
-                                    <div class="container-block"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="miniblock">
-
-                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <script src="js/jquery-3.3.1.min.js"></script>
+</div>
+    <script src="jiva/js/jquery-3.3.1.min.js"></script>
+    <script src="js/vue.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>

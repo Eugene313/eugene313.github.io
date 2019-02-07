@@ -1,8 +1,6 @@
-/*speed test start*/
-
 var startTime = new Date();
 function showElapsedTime() {
-var testSiteUrl = location.href;;
+var testSiteUrl = location.href;
 var testSiteString = String(testSiteUrl).slice(testSiteUrl.indexOf("www"));
 var endTime = new Date();
 var elapsedTime = Number(endTime-startTime);
@@ -13,65 +11,68 @@ document.getElementById("vremia").innerHTML = msgString;
 }
 onload=function() {showElapsedTime();}
 
-/*speed test end*/
+var app = new Vue({
+    el: '#app',
+    data: {
+        forvard:true,
+        home: "Home",
+        summary:"Summary",
+        contact:"Contacts",
+        night:"Night",
+        dayOn:"Day",
 
-
-$('.open').click(function () {
-    $('.portfolio-title').animate({left:'100%'},900);
+    },
+    methods: {
+        transLate: function () {
+            if (this.forvard === true){
+                this.forvard = false
+                this.home = "Главная";
+                this.summary = "Резюме";
+                this. contact = "Контакты";
+                this. night = "Ночь";
+                this. dayOn = "День";
+            }
+             else {
+                this.forvard = true
+                this.home = "Home";
+                this.summary = "Summary";
+                this. contact = "Contacts";
+                this. night = "Night";
+                this. dayOn = "Day";
+            }
+        }
+    }
 });
-$('.close').click(function () {
-    $('.portfolio-title').animate({left:'0'},900);
-});
+setTimeout( wakeUp = function () {
+    $('body').css({
+        'background-position':' center 600px'
+    })
+    $('#app').css({
+        'background-position':' 70% 55%'
+    })
+},100);
 
-/*Slider start*/
+$('#sleep').click(function () {
+    $('body').css({
+        'background-position':' center 1900px'
+    })
+    $('#app').css({
+        'background-position':' 90% 85%'
+    })
+})
+$('#wakeup').click(wakeUp)
+$('#reload').click(function () {
+    location.reload();
+})
 
-var slider = [".html",".css",".js"];
-var marker = $('.line');
-var i = 0;
-var sliderTimer = function(){
-    $(slider[i]).animate({left:'-100%'},500);
-    $(marker[i]).toggleClass('line-active');
-    i = (i+1)%slider.length;
-    $(slider[i]).animate({top:'60px'},500);
-    $(marker[i]).toggleClass('line-active');
-    --i;
-    if (i < 0){i=2};
-    $(slider[i]).animate({top:'120%'},50);
-    $(slider[i]).animate({left:'30px'},50);
-    return i = (i+1)%slider.length;
-};
-setInterval(sliderTimer,7000);
-
-/* Slider end */
-
-$('.menu-html').click(function () {
-    $('.menu-html').css('background','#9a0000');
-    $('.slider-html').css({'opacity':'1','z-index':'2'});
-    $('.slider-css').css({'opacity':'0','z-index':'1'});
-    $('.slider-js').css({'opacity':'0','z-index':'1'});
-    $('.menu-css').css('background','#313131');
-    $('.menu-js').css('background','#313131');
-});
-$('.menu-css').click(function () {
-    $('.menu-css').css('background','#9a0000');
-    $('.slider-css').css({'opacity':'1','z-index':'2'});
-    $('.slider-html').css({'opacity':'0','z-index':'1'});
-    $('.slider-js').css({'opacity':'0','z-index':'1'});
-    $('.menu-html').css('background','#313131');
-    $('.menu-js').css('background','#313131');
-});
-$('.menu-js').click(function () {
-    $('.menu-js').css('background','#9a0000');
-    $('.slider-js').css({'opacity':'1','z-index':'2'});
-    $('.slider-html').css({'opacity':'0','z-index':'1'});
-    $('.slider-css').css({'opacity':'0','z-index':'1'});
-    $('.menu-html').css('background','#313131');
-    $('.menu-css').css('background','#313131');
-});
-
-
-
-
-
-
-
+var xhr = new XMLHttpRequest();
+xhr.open('GET', '/example.json', false);
+xhr.send()
+if (xhr.status != 200) {
+    // обработать ошибку
+    alert( xhr.status + ': ' + xhr.statusText ); // пример вывода: 404: Not Found
+} else {
+    // вывести результат
+    // alert( xhr.responseText ); // responseText -- текст ответа.
+    console.log(xhr.responseText);
+}
