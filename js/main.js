@@ -54,10 +54,10 @@ setTimeout( wakeUp = function () {
 
 $('#sleep').click(function () {
     $('body').css({
-        'background-position':' center 1900px'
+        'background-position':' center 1400px'
     })
     $('#app').css({
-        'background-position':' 90% 85%'
+        'background-position':' 90% 120%'
     })
 })
 $('#wakeup').click(wakeUp)
@@ -66,7 +66,7 @@ $('#reload').click(function () {
 })
 
 var xhr = new XMLHttpRequest();
-xhr.open('GET', '/example.json', false);
+xhr.open('GET', '../example.json', false);
 xhr.send()
 if (xhr.status != 200) {
     // обработать ошибку
@@ -75,4 +75,6 @@ if (xhr.status != 200) {
     // вывести результат
     // alert( xhr.responseText ); // responseText -- текст ответа.
     console.log(xhr.responseText);
+
+    var objAjax = JSON.parse(xhr.responseText);
 }
