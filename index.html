@@ -17,7 +17,7 @@
             <div id="cloud3"><img src="img/cloud3.png" alt=""></div>
             <div id="bird"><img src="img/bird2.gif" alt=""></div>
             <div class="left">
-                <div class="box">
+                <div class="box" v-on:click="transLate">
                     <div class="boxmod">
                         <i class="fab fa-buromobelexperte"></i>
                     </div>
@@ -33,28 +33,23 @@
                     <div class="verh-content">
                         <div class="menu">
                             <div class="menu-wrap">
-                                <div class="menu-link"><i class="fas fa-home"></i>Home</div>
-                                <div class="menu-link"><i class="far fa-address-card"></i>Summary</div>
-                                <div class="menu-link"><i class="fas fa-phone"></i>Contact</div>
+                                <div class="menu-link"><i class="fas fa-home"></i><a>{{ home }}</a></div>
+                                <div class="menu-link"><i class="far fa-address-card"></i>{{ summary }}</div>
+                                <div class="menu-link"><i class="fas fa-phone"></i>{{ contact}}</div>
                                 <div class="menu-link"><i class="fab fa-github"></i>GitHub</div>
-                                <div id="sleep"class="menu-link"><i class="fas fa-angle-right"></i>Sleep</div>
-                                <div id="wakeup"class="menu-link"><i class="fas fa-angle-right"></i>WakeUp</div>
+                                <div id="sleep"class="menu-link"><i class="fas fa-angle-right"></i>{{ night }}</div>
+                                <div id="wakeup"class="menu-link"><i class="fas fa-angle-right"></i>{{ dayOn}}</div>
                             </div> 
                             <div class="menu-link"><i id="reload"class="fas fa-sync-alt"></i><div id="vremia">Загрузка ...</div></div>
-                            <button type="submit" class="button" v-on:click="showLogo"> {{ message2 }} </button>
                         </div>
                     </div>
                     <div class="verh-logo" >
                             <div class="logo" >
-                                    <transition name="slide">
-                                        <p v-show="seen"><i class="fab fa-connectdevelop"></i>Developer</p>
-                                    </transition>
+                                        <p><i class="fab fa-connectdevelop"></i>Developer</p>
                             </div>
                     </div>
                 </div>
                 <div class="niz">
-                       <button type="submit" v-on:click="showConsole" class="button">Eugene Rubel</button>
-                        <button type="submit" class="button" v-on:click="reload">{{ message }}</button>
                 </div>
             </div>
         </div>

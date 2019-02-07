@@ -14,32 +14,31 @@ onload=function() {showElapsedTime();}
 var app = new Vue({
     el: '#app',
     data: {
-        message: 0,
-        message2:'hide',
-        seen:true
+        forvard:true,
+        home: "Home",
+        summary:"Summary",
+        contact:"Contacts",
+        night:"Night",
+        dayOn:"Day",
+
     },
     methods: {
-        showConsole : function () {
-                if (this.message === 10||this.message === 'restore'){
-                    this.message = 'restore';
-                    return;
-                } else {
-                    this.message +=1
-                    console.log(this.message);
-                }
-        },
-        reload: function () {
-            if ( this.message === 'restore'){
-                this.message = 0;
-                console.log('star restore')
+        transLate: function () {
+            if (this.forvard === true){
+                this.forvard = false
+                this.home = "Главная";
+                this.summary = "Резюме";
+                this. contact = "Контакты";
+                this. night = "Ночь";
+                this. dayOn = "День";
             }
-        },
-        showLogo: function () {
-            this.seen = !this.seen
-            if (this.message2 === 'hide'){
-                this.message2 = 'show'
-            } else {
-                this.message2 = 'hide'
+             else {
+                this.forvard = true
+                this.home = "Home";
+                this.summary = "Summary";
+                this. contact = "Contacts";
+                this. night = "Night";
+                this. dayOn = "Day";
             }
         }
     }
@@ -65,3 +64,14 @@ $('#wakeup').click(wakeUp)
 $('#reload').click(function () {
     location.reload();
 })
+
+var xhr = new XMLHttpRequest();
+xhr.open('GET', '/example.json', true);
+xhr.send()
+if (xhr.status != 200) {
+    // обработать ошибку
+    alert( xhr.status + ': ' + xhr.statusText ); // пример вывода: 404: Not Found
+} else {
+    // вывести результат
+    alert( xhr.responseText ); // responseText -- текст ответа.
+}
