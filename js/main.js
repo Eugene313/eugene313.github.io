@@ -20,7 +20,7 @@ var app = new Vue({
         contact:"Contacts",
         night:"Night",
         dayOn:"Day",
-        objAjax:''
+        objAjax:null
     },
     methods: {
         transLate: function () {
@@ -75,6 +75,5 @@ if (xhr.status != 200) {
     // вывести результат
     // alert( xhr.responseText ); // responseText -- текст ответа.
     console.log(xhr.responseText);
-
     app._data.objAjax = JSON.parse(xhr.responseText);
 }
