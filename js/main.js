@@ -51,4 +51,7 @@ setTimeout(function () {
     $('#app').css({
         'background-position':' 70% 55%'
     })
-},100)
+},100);
+$(function(){
+    $("#includedContent").load("https://eugene313.github.io/jiva/index.html");
+});
