@@ -48,4 +48,7 @@ setTimeout(function () {
     $('body').css({
         'background-position':' center 500px'
     })
-},1000)
+    $('#app').css({
+        'background-position':' 70% 55%'
+    })
+},100)

@@ -9,6 +9,11 @@ body {
     background-position:  center 1900px;
     transition: 4s all;
 }
+#app {
+    background: url("../img/sun.png") no-repeat;
+    background-position: 90% 80%;
+    transition: 7s all;
+}
 .main {
     position: relative;
     overflow: hidden;
@@ -180,6 +185,7 @@ body {
     font-weight: bold;
     font-family: sans-serif;
     width: 30%;
+    z-index: 3;
 }
 .verh-logo{
     display: flex;
@@ -197,6 +203,7 @@ body {
     padding-bottom: 40%;
     position: relative;
     top: 10px;
+    z-index: 3;
 }
 .niz {
     width: 100%;
