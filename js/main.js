@@ -66,7 +66,7 @@ $('#reload').click(function () {
 })
 
 var xhr = new XMLHttpRequest();
-xhr.open('GET', '/example.json', true);
+xhr.open('GET', '/example.json', false);
 xhr.send()
 if (xhr.status != 200) {
     // обработать ошибку
