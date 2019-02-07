@@ -96,7 +96,7 @@ body {
 }
 @keyframes example4 {
     0%   {left:-30px; top:80px;}
-    100% {left:102%; top:200px;}
+    100% {left:102%; top:400px;}
 }
 #bird img {
     width: 20px;
