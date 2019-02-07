@@ -280,3 +280,8 @@ a {
 #app .button:active,#app .button:focus {
     outline: none !important;
 }
+#example-1 {
+    position: relative;
+    top: 40%;
+    left:20%;
+}
