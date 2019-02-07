@@ -44,11 +44,21 @@ var app = new Vue({
         }
     }
 });
-setTimeout(function () {
+setTimeout( wakeUp = function () {
     $('body').css({
-        'background-position':' center 500px'
+        'background-position':' center 600px'
     })
     $('#app').css({
         'background-position':' 70% 55%'
     })
 },100);
+
+$('#sleep').click(function () {
+    $('body').css({
+        'background-position':' center 1900px'
+    })
+    $('#app').css({
+        'background-position':' 90% 85%'
+    })
+})
+$('#wakeup').click(wakeUp)

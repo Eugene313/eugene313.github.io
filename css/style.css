@@ -83,6 +83,24 @@ body {
 #cloud3 img {
     width: 450px;
 }
+#bird {
+    position: absolute;
+    top: 60px;
+    right: -150px;
+    z-index: -1;
+    animation-name: example4;
+    animation-duration: 194s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    z-index: 2;
+}
+@keyframes 4 {
+    0%   {right:-150px; top:0px;}
+    100% {right:120%; top:0px;}
+}
+#bird img {
+    width: 150px;
+}
 .left {
     width: 10%;
     height: 100%;
@@ -175,6 +193,18 @@ body {
 .menu-link:hover{
     color: #00efff;
     cursor: pointer;
+}
+#sleep,#wakeup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 40px;
+    background: #ffffff50;
+    margin-left: 50px;
+    padding: 0;
+    cursor: pointer;
+    z-index: 3;
 }
 #vremia {
     display: flex;
