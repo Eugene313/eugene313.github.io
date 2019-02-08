@@ -42,11 +42,35 @@
                             </div> 
                             <div class="menu-link"><i id="reload"class="fas fa-sync-alt"></i><div id="vremia">Загрузка ...</div></div>
                         </div>
-                        <ul id="example-1">
-                            <li v-for="value in objAjax">
-                                {{ value }}
-                            </li>
-                        </ul>
+                        <div class="content-center">
+                            <button class="add-data"> ADD </button>
+                            <form action="POST" class="form-data">
+                                <label for="name" class="label-style">Name</label>
+                                <input type="text" id="name"placeholder="Name" class="input-style">
+                                <label for="country" class="label-style">Sum Deposit</label>
+                                <select name="" id="country" class="input-style">
+                                    <option value="">Ukraine</option>
+                                </select>
+                                <label for="desk" class="label-style">Desk</label>
+                                <select name="" id="desk" class="input-style">
+                                    <option value="">Russian</option>
+                                    <option value="">English</option>
+                                </select>
+                                <label for="sum" class="label-style">Sum Deposit</label>
+                                <input type="number" placeholder="Sum" id="sum"class="input-style">
+                                <button class="input-style">Send</button>
+                            </form>
+                            <ul id="v-for-object" class="example-1">
+                                <li v-for="value in objAjax">
+                                <ul id="v-for" class="example-1">
+                                    <li v-for="v in value">
+                                            {{ v }}
+                                        </li>
+                                    </ul>
+
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                     <div class="verh-logo" >
                             <div class="logo" >
@@ -55,6 +79,10 @@
                     </div>
                 </div>
                 <div class="niz">
+                    <div class="total-container"><p>Total Mounth <br>$0</p></div>
+                    <div class="total-container"><p>Total Day <br>$0</p></div>
+                    <div class="total-container"><p>Amount Mounth <br>0</p></div>
+                    <div class="total-container"><p>Amount Mounth <br>0</p></div>
                 </div>
             </div>
         </div>

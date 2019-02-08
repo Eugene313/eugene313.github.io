@@ -72,8 +72,10 @@ if (xhr.status != 200) {
     // обработать ошибку
     alert( xhr.status + ': ' + xhr.statusText ); // пример вывода: 404: Not Found
 } else {
-    // вывести результат
-    // alert( xhr.responseText ); // responseText -- текст ответа.
-    console.log(xhr.responseText);
-    app._data.objAjax = JSON.parse(xhr.responseText);
+    //console.log(xhr.responseText);
+    app._data.objAjax = JSON.parse(xhr.responseText).data;
+    console.log(app._data.objAjax);
 }
+$('.add-data').click(function () {
+$('.form-data').toggleClass("form-data-active");
+})
