@@ -304,6 +304,13 @@ a {
 .example-1 {
     width: 100%;
 }
+.table {
+    display: flex;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: sans-serif;
+}
 .example-1 li {
     list-style: none;
     font-size: 18px;
