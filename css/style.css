@@ -307,6 +307,10 @@ a {
 }
 .example-1 li {
     padding: 10px 30px;
+    list-style: none;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: bold;
 }
 .add-data {
     position: absolute;
