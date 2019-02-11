@@ -1,7 +1,7 @@
 {
   "data": [
     {
-      "squadName": "Filip Mikhalovih",
+      "name": "Filip Mikhalovih",
       "country": "Ukraine",
       "totalDay": 0,
       "totalMounth": "0",
@@ -9,7 +9,7 @@
       "desk": "Russian"
     },
     {
-      "squadName": "Alex Gordon",
+      "name": "Alex Gordon",
       "country": "Ukraine",
       "totalDay": 0,
       "totalMounth": "0",
@@ -17,7 +17,7 @@
       "desk": "English"
     },
     {
-      "squadName": "Max Gordon",
+      "name": "Max Gordon",
       "country": "Ukraine",
       "totalDay": 0,
       "totalMounth": "0",
