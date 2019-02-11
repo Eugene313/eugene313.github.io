@@ -44,14 +44,14 @@ var app = new Vue({
         }
     }
 });
-setTimeout( wakeUp = function () {
-    $('body').css({
-        'background-position':' center 600px'
-    })
-    $('#app').css({
-        'background-position':' 70% 55%'
-    })
-},100);
+// setTimeout( wakeUp = function () {
+//     $('body').css({
+//         'background-position':' center 600px'
+//     })
+//     $('#app').css({
+//         'background-position':' 70% 55%'
+//     })
+// },100);
 
 $('#sleep').click(function () {
     $('body').css({
