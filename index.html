@@ -61,7 +61,8 @@
                                 <button class="input-style">Send</button>
                             </form>
                                 <ul id="v-for-object" class="example-1">
-                                    <li v-for="value in object">
+                                    <li v-for="(value,index) in object">
+                                        <p>{{ index }}</p>
                                         <p>{{ value.name }}</p>
                                         <p>{{ value.country }}</p>
                                         <p>{{ value.totalDay }}</p>
