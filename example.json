@@ -1,24 +1,8 @@
-    {
-      "name": "Filip Mikhalovih",
-      "country": "Ukraine",
-      "totalDay": 0,
-      "totalMounth": "0",
-      "totalSum": 0,
-      "desk": "Russian"
-    },
-    {
-      "name": "Alex Gordon",
-      "country": "Ukraine",
-      "totalDay": 0,
-      "totalMounth": "0",
-      "totalSum": 0,
-      "desk": "English"
-    },
-    {
-      "name": "Max Gordon",
-      "country": "Ukraine",
-      "totalDay": 0,
-      "totalMounth": "0",
-      "totalSum": 0,
-      "desk": "English"
-    }
+{
+  "name": "Filip Mikhalovih",
+  "country": "Ukraine",
+  "totalDay": 0,
+  "totalMounth": "0",
+  "totalSum": 0,
+  "desk": "Russian"
+}
