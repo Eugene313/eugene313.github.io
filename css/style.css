@@ -312,6 +312,8 @@ a {
     color: #ffffff;
     font-weight: bold;
     font-family: sans-serif;
+    display: flex;
+    padding: 10px 30px;
 }
 .add-data {
     position: absolute;
