@@ -1,5 +1,5 @@
 {
-  "people": {
+  "1": {
     "name": "Filip Mikhalovih",
     "country": "Ukraine",
     "totalDay": 0,
@@ -7,7 +7,7 @@
     "totalSum": 0,
     "desk": "Russian"
   },
-  "people2": {
+  "2": {
     "name": "Max Luter",
     "country": "Ukraine",
     "totalDay": 0,
