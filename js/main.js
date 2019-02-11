@@ -80,5 +80,3 @@ if (xhr.status != 200) {
 $('.add-data').click(function () {
 $('.form-data').toggleClass("form-data-active");
 })
-app._data.totalDay = app._data.object.reduce((acc.val) => acc + val.totalDay,0);
-console.log(app._data.totalDay);
