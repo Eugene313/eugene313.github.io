@@ -316,6 +316,9 @@ a {
     padding: 10px;
     width: 200px;
 }
+.example-1 .index {
+    width: 20px;
+}
 .add-data {
     position: absolute;
     top: 10px;
