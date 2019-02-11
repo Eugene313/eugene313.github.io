@@ -306,6 +306,9 @@ a {
     flex-direction: column;
     width: 100%;
 }
+.example-1 li {
+    display: flex;
+}
 .add-data {
     position: absolute;
     top: 10px;
