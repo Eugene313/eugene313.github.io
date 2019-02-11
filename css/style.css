@@ -313,6 +313,8 @@ a {
     font-weight: bold;
     font-family: sans-serif;
     display: flex;
+}
+.example-1 p {
     padding: 10px 30px;
 }
 .add-data {
