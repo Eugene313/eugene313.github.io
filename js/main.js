@@ -21,6 +21,7 @@ var app = new Vue({
         night:"Night",
         dayOn:"Day",
         object:null,
+        object2:null,
         totalDay : null
     },
     methods: {
@@ -80,3 +81,14 @@ if (xhr.status != 200) {
 $('.add-data').click(function () {
 $('.form-data').toggleClass("form-data-active");
 })
+var xhr2 = new XMLHttpRequest();
+xhr.open('GET', '../example.json', false);
+xhr.send()
+if (xhr2.status != 200) {
+    // обработать ошибку
+    alert( xhr2.status + ': ' + xhr2.statusText ); // пример вывода: 404: Not Found
+} else {
+    //console.log(xhr.responseText);
+    app._data.object2 = JSON.parse(xhr2.responseText);
+    console.log(app._data.object2);
+}
