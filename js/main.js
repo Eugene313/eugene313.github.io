@@ -20,7 +20,8 @@ var app = new Vue({
         contact:"Contacts",
         night:"Night",
         dayOn:"Day",
-        object:null
+        object:null,
+        totalDay : null
     },
     methods: {
         transLate: function () {
@@ -75,6 +76,7 @@ if (xhr.status != 200) {
     //console.log(xhr.responseText);
     app._data.object = JSON.parse(xhr.responseText);
     console.log(app._data.object);
+    app._data.totalDay = app._data.object.reduce((acc.val) => acc + val.totalDay,0)
 }
 $('.add-data').click(function () {
 $('.form-data').toggleClass("form-data-active");
