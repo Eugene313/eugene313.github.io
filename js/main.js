@@ -82,8 +82,8 @@ $('.add-data').click(function () {
 $('.form-data').toggleClass("form-data-active");
 })
 var xhr2 = new XMLHttpRequest();
-xhr.open('GET', '../example.json', false);
-xhr.send()
+xhr2.open('GET', '../example.json', false);
+xhr2.send()
 if (xhr2.status != 200) {
     // обработать ошибку
     alert( xhr2.status + ': ' + xhr2.statusText ); // пример вывода: 404: Not Found
