@@ -1,8 +1,10 @@
 {
-  "name": "Filip Mikhalovih",
-  "country": "Ukraine",
-  "totalDay": 0,
-  "totalMounth": "0",
-  "totalSum": 0,
-  "desk": "Russian"
+  "people": {
+    "name": "Filip Mikhalovih",
+    "country": "Ukraine",
+    "totalDay": 0,
+    "totalMounth": "0",
+    "totalSum": 0,
+    "desk": "Russian"
+  }
 }
