@@ -76,7 +76,7 @@ if (xhr.status != 200) {
     //console.log(xhr.responseText);
     app._data.object = JSON.parse(xhr.responseText);
     console.log(app._data.object);
-    app._data.totalDay = app._data.object.reduce((acc.val) => acc + val.totalDay,0);
+    app._data.totalDay = app._data.object.people.reduce((acc.val) => acc + val.totalDay,0);
     console.log(app._data.totalDay);
 }
 $('.add-data').click(function () {
