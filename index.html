@@ -63,9 +63,9 @@
                             <ul id="v-for-object" class="example-1">
                                 <li v-for="value in objAjax">
                                 <ul id="v-for" class="example-1">
-                                    <li v-for="v in value">
-                                            <p>{{ objAjax.data.name }}</p>
-                                        <p>{{ objAjax.data.country }}</p>
+                                    <li v-for="obj in objAjax">
+                                            <p>{{ obj.name }}</p>
+                                        <p>{{ obj.country }}</p>
                                         </li>
                                     </ul>
 

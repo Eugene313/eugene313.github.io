@@ -73,7 +73,7 @@ if (xhr.status != 200) {
     alert( xhr.status + ': ' + xhr.statusText ); // пример вывода: 404: Not Found
 } else {
     //console.log(xhr.responseText);
-    app._data.objAjax = JSON.parse(xhr.responseText).data;
+    app._data.objAjax = JSON.parse(xhr.responseText);
     console.log(app._data.objAjax);
 }
 $('.add-data').click(function () {
