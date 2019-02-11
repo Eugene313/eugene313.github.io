@@ -60,8 +60,8 @@
                                 <input type="number" placeholder="Sum" id="sum"class="input-style">
                                 <button class="input-style">Send</button>
                             </form>
-                            <ul id="v-for obj in objAjax" class="example-1">
-                               <li>
+                            <ul class="example-1">
+                               <li v-for="obj in objAjax">
                                    <p>{{ obj.name }}</p>
                                    <p>{{ obj.country }}</p>
                                </li>
