@@ -17,16 +17,6 @@ a {
     text-decoration: none;
     color: #fff;
 }
-.areaForLoader {
-    background: linear-gradient(90deg, #FF4E50 10%, #F9D423 90%);
-    overflow: hidden;
-    position: fixed;
-    left: 0;
-    top: 0;
-    right:0;
-    bottom:0;
-    z-index: 9999;
-}
 #reload {
 
 }
