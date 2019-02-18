@@ -8,6 +8,14 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
+    <script>
+        $(window).on('load', function () {
+            $preloader = $('.loaderArea'),
+                $loader = $preloader.find('.loader');
+            $loader.fadeOut();
+            $preloader.delay(350).fadeOut('slow');
+        });
+    </script>
 </head>
 <body>
 <div class="areaForLoader">
