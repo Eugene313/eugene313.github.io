@@ -5,7 +5,7 @@
 }
 body {
     background-image: linear-gradient(to bottom, #000000, #25151e, #25151e, #513663, #544e91, #4e62ab, #3e76c5, #148bdd, #249be4, #3aabea, #50baef, #68c9f4);
-    background: black;
+    /*background: black;*/
     background-size: 500% 200%;
     background-position:  center 1900px;
     transition: 4s all;
