@@ -47,7 +47,7 @@ var app = new Vue({
 });
 setTimeout( wakeUp = function () {
     $('body').css({
-        'background-position':' center 600px'
+        'background-position':' center 700px'
     })
     $('#app').css({
         'background-position':' 70% 55%'
