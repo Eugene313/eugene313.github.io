@@ -4,10 +4,10 @@
     box-sizing: border-box;
 }
 body {
-    /*background-image: linear-gradient(to bottom, #000000, #25151e, #25151e, #513663, #544e91, #4e62ab, #3e76c5, #148bdd, #249be4, #3aabea, #50baef, #68c9f4);*/
+    background-image: linear-gradient(to bottom, #000000, #25151e, #25151e, #513663, #544e91, #4e62ab, #3e76c5, #148bdd, #249be4, #3aabea, #50baef, #68c9f4);
     background: black;
-    /*background-size: 500% 200%;*/
-    /*background-position:  center 1900px;*/
+    background-size: 500% 200%;
+    background-position:  center 1900px;
     transition: 4s all;
 }
 i {
@@ -21,14 +21,14 @@ a {
 
 }
 #app {
-    /*background: url("../img/sun.png") no-repeat;*/
+    background: url("../img/sun.png") no-repeat;
     background-position: 90% 80%;
     transition: 7s all;
 }
 .main {
     position: relative;
     overflow: hidden;
-    /*background: url('../img/bgplan.png') no-repeat;*/
+    background: url('../img/bgplan.png') no-repeat;
     background-size:100% 100%;
     background-position: center center;
 }

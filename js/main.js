@@ -45,27 +45,27 @@ var app = new Vue({
         }
     }
 });
-// setTimeout( wakeUp = function () {
-//     $('body').css({
-//         'background-position':' center 600px'
-//     })
-//     $('#app').css({
-//         'background-position':' 70% 55%'
-//     })
-// },100);
+setTimeout( wakeUp = function () {
+    $('body').css({
+        'background-position':' center 600px'
+    })
+    $('#app').css({
+        'background-position':' 70% 55%'
+    })
+},100);
 
-// $('#sleep').click(function () {
-//     $('body').css({
-//         'background-position':' center 1400px'
-//     })
-//     $('#app').css({
-//         'background-position':' 90% 120%'
-//     })
-// })
-// $('#wakeup').click(wakeUp)
-// $('#reload').click(function () {
-//     location.reload();
-// })
+$('#sleep').click(function () {
+    $('body').css({
+        'background-position':' center 1400px'
+    })
+    $('#app').css({
+        'background-position':' 90% 120%'
+    })
+})
+$('#wakeup').click(wakeUp)
+$('#reload').click(function () {
+    location.reload();
+})
 
 var xhr = new XMLHttpRequest();
 xhr.open('GET', '../example.json', false);
@@ -78,9 +78,9 @@ if (xhr.status != 200) {
     app._data.object = JSON.parse(xhr.responseText);
     console.log(app._data.object);
 }
-// $('.add-data').click(function () {
-// $('.form-data').toggleClass("form-data-active");
-// })
+$('.add-data').click(function () {
+$('.form-data').toggleClass("form-data-active");
+})
 var xhr2 = new XMLHttpRequest();
 xhr2.open('GET', '../example.json', false);
 xhr2.send()
